@@ -13,15 +13,15 @@ const FeatureSec = () => {
         </div>
         <div className="flex flex-wrap mt-10 lg:mt-20 ">
             {features.map((feature,index) => (
-                <div key={index} className="w-full sm:w-1/2 lg:w-1/3">
-                    <div className="flex">
-                        <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full"></div>
+                <div key={index} className="w-full sm:1/2 lg:w-1/3">
+                    <div className="flex mx-12 text-amber-500">
+                        <div className="flex h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full"></div>
                     {feature.icon}
                     </div>
-                    <div>
+                    <div className="mx-15 ">
                         
                     <h5 className="mt-1 mb-6 text-xl "> {feature.text}</h5>
-                    <p>{feature.description}</p>
+                    <p className="text-md p-2 mb-15 text-neutral-500">{feature.description}</p>
                     </div>
 
                 </div>

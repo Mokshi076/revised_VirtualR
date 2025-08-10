@@ -1,6 +1,7 @@
 import FeatureSec from "./components/FeatureSec";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import WorkFlow from "./components/WorkFlow";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <HeroSection/>
       </div>
       <FeatureSec/>
+      <WorkFlow/>
       
     </>
   );

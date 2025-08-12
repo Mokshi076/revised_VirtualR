@@ -27,7 +27,9 @@ const App = () => {
       <div className="max-w-6xl mx-auto pt-20 px-8">
         <Testimonials/>
       </div>
-      <Footer/>
+      <div className="max-w-6xl mx-auto pt-20 px-14">
+        <Footer/>
+      </div>
     </>
   );
 };

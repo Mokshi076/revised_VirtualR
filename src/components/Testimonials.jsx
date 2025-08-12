@@ -14,7 +14,7 @@ const Testimonials = () => {
                         <div className="flex mt-8 items-start">
                             <img className="w-12 h-12  mr-6 rounded-full border-neutral-300" src={testimonial.image} alt={testimonial.user} />
                             <div>
-                                <h6 className="font-light italic text-neutral-100"> {testimonial.user}</h6>
+                                <h6 > {testimonial.user}</h6>
                             <span className="text-sm font-normal italic text-neutral-600">{testimonial.company}</span>
                             </div>
                         </div>

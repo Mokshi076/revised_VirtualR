@@ -23,7 +23,7 @@ export const testimonials = [
   {
     user: "John Doe",
     company: "Stellar Solutions",
-    image: user1,
+    image: user*1,
     text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
   },
   {
